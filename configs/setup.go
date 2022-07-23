@@ -33,7 +33,7 @@ func ConnectDb() *mongo.Client {
 
 }
 
-// Clint instance
+// Client instance
 var DB *mongo.Client = ConnectDb()
 
 // getting database collections
